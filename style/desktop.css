@@ -42,6 +42,8 @@ div{
 .tab{
   border: 2px solid black;
   border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 
   top: 0;
 
@@ -57,6 +59,20 @@ div{
   text-align: right;
 
   padding-right: 1%;
+
+  text-align: right;
+}
+
+#tab-one{
+  border-top-left-radius: 10px;
+}
+
+div.tab:hover{
+  z-index: 9999;
+  position: relative;
+  background-color: red;
+  width: 100%;
+  display: block;
 }
 
 .page{
@@ -79,20 +95,4 @@ div{
   background-color: white;
 
   overflow: scroll;
-}
-
-#section-one{
-  display: block;
-}
-
-#section-two{
-  display: none;
-}
-
-#section-three{
-  display: none;
-}
-
-#section-four{
-  display: none;
 }
