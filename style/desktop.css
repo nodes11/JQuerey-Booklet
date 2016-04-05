@@ -41,12 +41,12 @@ div{
 
 .tab{
   border: 2px solid black;
-
   border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 
   top: 0;
 
-  width: 24%;
   height: 10.5%;
 
   display: inline-block;
@@ -54,34 +54,25 @@ div{
 
   background-color: white;
 
-  font-size: 23pt;
+  font-size: 20pt;
 
   text-align: right;
 
   padding-right: 1%;
+
+  text-align: right;
 }
 
 #tab-one{
-  z-index: 4;
-
-    border-top-left-radius: 8px;
+  border-top-left-radius: 10px;
 }
 
-#tab-two{
-  width: 50%;
-  z-index: 3;
-}
-
-#tab-three{
-  width: 74%;
-  z-index: 2;
-}
-
-#tab-four{
-  width: 98.5%;
-  z-index: 1;
-
-  border-top-right-radius: 8px;
+div.tab:hover{
+  z-index: 9999;
+  position: relative;
+  background-color: red;
+  width: 100%;
+  display: block;
 }
 
 .page{
@@ -104,20 +95,4 @@ div{
   background-color: white;
 
   overflow: scroll;
-}
-
-#section-one{
-  display: block;
-}
-
-#section-two{
-  display: none;
-}
-
-#section-three{
-  display: none;
-}
-
-#section-four{
-  display: none;
 }
