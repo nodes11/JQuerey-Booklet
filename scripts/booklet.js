@@ -1,28 +1,29 @@
 var current;
-var pages = 4;
-var tabWidth = 100/pages;
+var tabNames = ["Apeture", "Shutter<br>Speed", "ISO", "Explore", "Snarf", "Hello"];
+var pages = tabNames.length;
+var tabWidth = 98.5/pages;
 
 document.addEventListener("DOMContentLoaded", function (event) {
 
+  /*Dynmaically Create tabs and pages*/
   function create(){
     for (var i = 0; i < pages; i++){
-      var $newdiv1 = $( '<div id="tab-' + toWords(i+1) + '" class="tab">snarf</div>' );
-      $( "div#tabs" ).append( $newdiv1);
+      var $newtab = $('<div id="tab-' + toWords(i+1) + '" class="tab">' + tabNames[i] + '</div>');
+      $newtab.css("width", (i+1)*tabWidth+"%");
+      $newtab.css("zIndex", pages-(i-1));
+      $( "div#tabs" ).append( $newtab);
 
-
-    /*  $("section-one").append('<div id="tab-five">snarf</div>');
-      $("tab-five").css("zIndex", "10");
-      $("tab-five").css("backgroundColor", "red");
-      $("tab-five").css("color", "red");
-            $("tab-five").css("display", "block");
-            $("tab-five").css("top", "0");*/
-
-
+      var $newsection = $('<div id="section-' + toWords(i+1) + '" class="page page-' + toWords(i+1) + ' section-' + toWords(i+1) + ' ' + toWords(i+1) + '">Page ' + toWords(i+1) + '</div>');
+      if (i == 0){
+        $newsection.css("display", "block");
+      }else{
+        $newsection.css("display", "none");
+      }
+      $( "div#sections" ).append( $newsection);
     }
   }
 
   create();
-
 
 
   /*var one = document.getElementById("section-one");
