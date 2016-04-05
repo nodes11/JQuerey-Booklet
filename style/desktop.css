@@ -22,17 +22,102 @@ body{
 }
 
 div{
+  margin: 0px;
   color: black;
 }
 
-div#book{
+#book{
   position: fixed;
 
   border: 2px solid black;
+  border-radius: 10px;
 
   width: 50%;
   height: 90%;
 
   margin-left: 15%;
-  top: 5%;
+  top: 4%;
+}
+
+.tab{
+  border: 2px solid black;
+
+  border-bottom-right-radius: 10px;
+
+  top: 0;
+
+  width: 24%;
+  height: 10.5%;
+
+  display: inline-block;
+  position: absolute;
+
+  background-color: white;
+
+  font-size: 23pt;
+
+  text-align: right;
+
+  padding-right: 1%;
+}
+
+#tab-one{
+  z-index: 4;
+
+    border-top-left-radius: 8px;
+}
+
+#tab-two{
+  width: 50%;
+  z-index: 3;
+}
+
+#tab-three{
+  width: 74%;
+  z-index: 2;
+}
+
+#tab-four{
+  width: 98.5%;
+  z-index: 1;
+
+  border-top-right-radius: 8px;
+}
+
+.page{
+  width: 97.5%;
+  height: 87.5%;
+
+  top: 10%;
+
+  padding: 1%;
+
+  position: absolute;
+
+  z-index: -1;
+
+  border: 2px solid black;
+
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+  background-color: white;
+
+  overflow: scroll;
+}
+
+#section-one{
+  display: block;
+}
+
+#section-two{
+  display: none;
+}
+
+#section-three{
+  display: none;
+}
+
+#section-four{
+  display: none;
 }
