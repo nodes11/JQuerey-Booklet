@@ -1,7 +1,31 @@
 var current;
+var pages = 4;
+var tabWidth = 100/pages;
 
 document.addEventListener("DOMContentLoaded", function (event) {
-  var one = document.getElementById("section-one");
+
+  function create(){
+    for (var i = 0; i < pages; i++){
+      var $newdiv1 = $( '<div id="tab-' + toWords(i+1) + '" class="tab">snarf</div>' );
+      $( "div#tabs" ).append( $newdiv1);
+
+
+    /*  $("section-one").append('<div id="tab-five">snarf</div>');
+      $("tab-five").css("zIndex", "10");
+      $("tab-five").css("backgroundColor", "red");
+      $("tab-five").css("color", "red");
+            $("tab-five").css("display", "block");
+            $("tab-five").css("top", "0");*/
+
+
+    }
+  }
+
+  create();
+
+
+
+  /*var one = document.getElementById("section-one");
   var two = document.getElementById("section-two");
   var three = document.getElementById("section-three");
   var four = document.getElementById("section-four");
@@ -75,5 +99,5 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     current = document.getElementById("tab-four");
     current.style.backgroundColor = "darkgray";
-  });
+  });*/
 });
