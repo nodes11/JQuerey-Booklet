@@ -2,7 +2,7 @@ var $current;
 var currentP;
 
 //Just add tabnames and everything else will be done for you!
-var tabNames = [];// = ["Apeture", "Shutter<br>Speed", "ISO", "Explore", "Snarf", "Hello"];
+var tabNames = []; // = ["Apeture", "Shutter<br>Speed", "ISO", "Explore"];
 
 var pages = tabNames.length;
 var tabWidth = 98.5/pages;
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
       $newtab.css("zIndex", pages-(i-1));
       $( "div#tabs" ).append( $newtab);
 
-      var $newsection = $('<div id="section-' + toWords(i+1) + '" class="page page-' + toWords(i+1) + ' section-' + toWords(i+1) + ' ' + toWords(i+1) + '">Page ' + toWords(i+1) + '</div>');
+      var $newsection = $('<div id="section-' + toWords(i+1) + '" class="page page-' + toWords(i+1) + ' section-' + toWords(i+1) + ' ' + toWords(i+1) + '">Hi Trevor<br>Page ' + toWords(i+1) + '</div>');
       if (i == 0){
         $newsection.css("display", "block");
       }else{
