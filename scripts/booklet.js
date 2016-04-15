@@ -44,20 +44,47 @@ document.addEventListener("DOMContentLoaded", function (event) {
             currentP.style.display = "none";
           }
           currentP = te.childNodes[i];
-          currentP.style.display = "none";
+          currentP.style.display = "block";
           break;
         }
       }
 
       //Set tab
       if ($current){
-        $current.style.backgroundColor = "white";
+        $current.style.backgroundColor = "#000000";
+        $current.style.color = "#FFFFFF";
+
+          if ($current.childNodes[1].id == "right-tab"){
+            $current.childNodes[1].style.backgroundColor = "#282c35";
+            $current.childNodes[1].style.color = "#FFFFFF";
+          }
       }
       $current = event.target;
-      $current.style.backgroundColor = "black";
+      $current.style.backgroundColor = "#f3d239";
+      $current.style.color = "#000000";
+
+      if ($current.childNodes[1].id == "right-tab"){
+        $current.childNodes[1].style.backgroundColor = "#e0ca1e";
+        $current.childNodes[1].style.color = "#000000";
+      }
     }
   });
 
+  $("#side").on("click", function(event){
+    if (currentP){
+      currentP.style.display = "none";
+    }
+
+    if ($current){
+      $current.style.backgroundColor = "#000000";
+      $current.style.color = "#FFFFFF";
+
+        if ($current.childNodes[1].id == "right-tab"){
+          $current.childNodes[1].style.backgroundColor = "#282c35";
+          $current.childNodes[1].style.color = "#FFFFFF";
+        }
+    }
+  })
 });
 
 /*Simply for testing*/
