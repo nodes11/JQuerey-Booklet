@@ -3,6 +3,13 @@ var currentP;
 
 //Just add tabnames and everything else will be done for you!
 var tabNames = ["Aperture", "Shutter Speed", "ISO", "Explore"];
+var htmltext = [
+  "hello<br>hello again 1",
+  "hello<br>hello again 2",
+  "hello<br>hello again 3",
+  "hello<br>hello again 4"
+];
+
 
 var pages = tabNames.length;
 var tabHeight = 98.5/(2.4*pages);
@@ -18,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
       //$newtab.css("zIndex", pages-(i-1));
       $( "div#tabs" ).append( $newtab);
 
-      var $newsection = $('<div id="section-' + toWords(i+1) + '" class="page page-' + toWords(i+1) + ' section-' + toWords(i+1) + ' ' + toWords(i+1) + '">Hi Trevor<br>Page ' + toWords(i+1) + '</div>');
+      var $newsection = $('<div id="section-' + toWords(i+1) + '" class="page page-' + toWords(i+1) + ' section-' + toWords(i+1) + ' ' + toWords(i+1) + '">' + htmltext[i] + '</div>');
       if (i == 0){
         $newsection.css("display", "none");
       }else{
