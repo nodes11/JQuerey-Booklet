@@ -2,25 +2,25 @@ var $current;
 var currentP;
 
 //Just add tabnames and everything else will be done for you!
-var tabNames = []; // = ["Apeture", "Shutter<br>Speed", "ISO", "Explore"];
+var tabNames = ["Aperture", "Shutter Speed", "ISO", "Explore"];
 
 var pages = tabNames.length;
-var tabWidth = 98.5/pages;
+var tabHeight = 98.5/(2.4*pages);
 
 document.addEventListener("DOMContentLoaded", function (event) {
-  addPages();
+  //addPages();
 
   /*Dynmaically Create tabs and pages*/
   function create(){
     for (var i = 0; i < pages; i++){
-      var $newtab = $('<div id="tab-' + toWords(i+1) + '" class="tab">' + tabNames[i] + '</div>');
-      $newtab.css("width", (i+1)*tabWidth+"%");
-      $newtab.css("zIndex", pages-(i-1));
+      var $newtab = $('<div id="tab-' + toWords(i+1) + '" class="tab">' + tabNames[i] + '<div id="right-tab">--</div>' + '</div>');
+      $newtab.css("height", tabHeight+"%");
+      //$newtab.css("zIndex", pages-(i-1));
       $( "div#tabs" ).append( $newtab);
 
       var $newsection = $('<div id="section-' + toWords(i+1) + '" class="page page-' + toWords(i+1) + ' section-' + toWords(i+1) + ' ' + toWords(i+1) + '">Hi Trevor<br>Page ' + toWords(i+1) + '</div>');
       if (i == 0){
-        $newsection.css("display", "block");
+        $newsection.css("display", "none");
       }else{
         $newsection.css("display", "none");
       }
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
             currentP.style.display = "none";
           }
           currentP = te.childNodes[i];
-          currentP.style.display = "block";
+          currentP.style.display = "none";
           break;
         }
       }
@@ -62,10 +62,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 /*Simply for testing*/
 function addPages(){
-  for (var i = 0; i < 100; i++){
+  for (var i = 0; i < 4; i++){
     tabNames.push("hi");
   }
 
   pages = tabNames.length;
-  tabWidth = 98.5/pages;
+  tabHeight = 98.5/(pages*2.5);
 }
