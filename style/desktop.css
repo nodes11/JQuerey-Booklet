@@ -52,10 +52,10 @@ p{
   margin-left: 25%;
 }
 
-ol{
+ol, ul{
   text-align: left;
   width: 50%;
-  margin-left: 25%;
+  margin-left: 23%;
 }
 
 caption{
@@ -255,7 +255,7 @@ div.tab:hover{
   text-align: center;
 }
 
-#side:hover{
+.back:hover{
   background-color: #e9a631;
   color: #a92703;
 }
