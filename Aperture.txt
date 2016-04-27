@@ -1,0 +1,24 @@
+<h1>Aperture</h1>
+<>
+<p>Aperture is the hole that controls the amount of light that passes through to reach the camera. Depending on how much light you have available, you’ll want to adjust your aperture accordingly. Use a larger aperture in darker settings with less available light. Use a smaller aperture in brighter settings with more available light.</p>
+
+<p>Aperture can also be used to create variation in the depth of field of the photo. A larger aperture value corresponds to a smaller opening. While a smaller aperture value corresponds to a larger opening. </p>
+
+<img src='images/aperture_sizes.jpeg'></img>
+
+
+<p>With a larger aperture value, your photo will have a greater depth of field. With a smaller aperture value, your photo will have a more shallow depth of field. See if you can notice the change in the depth of field as the aperture changes in the photos below.</p>
+
+<img src=“aperture_one.jpg”>F1.8 - Notice </img>
+<p></p>
+
+
+<img src=“aperture_two.jpg”>F13 - </img>
+<p></p>
+
+<img src=“aperture_three.jpg”>F22 - </img>
+<p></p>
+
+<p>Think about how you would adjust your aperture given these situations:</p>
+
+<ol><li>A portrait of your friend on a sunny day</li><li>In a dark alley way with very little incoming light</li><li>In a football stadium at night</li><li>Your dog is in midair trying to catch a frisbee</li><li>You want to capture the movement of the stars</li></ol>

@@ -1,0 +1,8 @@
+<h1>Putting it all together</h1>
+
+<p>Creating the most visually appealing photos is a balancing act of Shutter Speed, Aperture, and ISO. Below are two examples on how to do so.</p>
+
+<p>This photo was taken during the 2015 Apple Cup. At the time of this photo the sun was behind the stadium, decreasing the amount of available light. Using a slower shutter speed was not an option because we wanted to capture the motion of the players. So in order to correct for this, a high ISO was used to increase the camera sensitivity to the available light. Thus permitting a faster shutter speed. Finally a large aperture was used to create a shallow depth of field in between the player and the background and to allow more light into the sensor. </p><img src=‘images/Football.jpg’></img><p>Football - </p>
+
+
+<p>In this photo we are trying to capture the movement of the car light. Using a low ISO allows us to use a longer shutter speed and keeps the photo from looking grainy. In order to achieve the trail of the light, the shutter speed should be at least 5 seconds to capture the movement of the car through the entire frame. Finally, using a large aperture will allow the camera to take in the maximum amount of available light.</p><img src=‘images/Lights.jpg’></img><p>Lights - ISO 100, 29mm, F22, 30.0 Seconds</p>

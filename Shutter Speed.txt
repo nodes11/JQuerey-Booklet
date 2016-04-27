@@ -1,0 +1,22 @@
+<h1>Shutter Speed</h1>
+
+<p>Shutter speed is the amount of time light is allowed into the camera. Depending on how much available light you have, you'll want to adjust your shutter speed accordingly. Use a slower shutter speed in darker settings to allow more light into the camera. User a faster shutter speed in brighter settings to allow less light into the camera.</p>
+
+</p>Remember that if you shoot at too slow of shutter speed you may encounter blur, or your photo may be too bright. Too faster of a shutter speed and your photo may be too dark.</p>
+
+<p>Below are 3 different photos of the same person running, each photo is shot at a progressively faster shutter speed. See if you can notice the effects of shutter speed on the photo.</p>
+
+<br><img src='images/run_slow.jpg'></img><p>1/15 of a second shutter speed. Notice that the subject is in focus but the background is blurred out due to the slow shutter speed.</p>
+
+<br>
+
+<img src='images/run_medium.jpg'></img><p>1/125 of a second shutter speed. In this example there is less blur in both the subject and the background due to the faster shutter speed.</p>
+
+<br>
+
+<img src='images/run_fast.jpg'></img><p>1/800 of a second shutter speed. Both the subject and background appear to be sharp and in focus to due to the even faster shutter speed.</p>
+
+<p>Think about how you would adjust your shutter speed given these situations:</p>
+
+<ol><li>Outside on a sunny day</li><li>In a dark alley way with very little incoming light</li><li>In a football stadium at night</li><li>Your dog is in midair trying to catch a frisbee</li><li>You want to capture the movement of the stars</li></ol>
+<br>

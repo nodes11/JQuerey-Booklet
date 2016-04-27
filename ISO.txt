@@ -1,0 +1,22 @@
+<h1>ISO</h1>
+
+<p>ISO is the measure of how sensitive your camera is to the available light. Think of ISO as servants who collect light for you.  The higher the ISO, the more servants you have to collect light and make your image brighter.  Using too many servants, however, will make them appear in your photograph as grain or noise. Depending on your setting adjust your ISO accordingly. In a setting with more available light use a lower ISO value. In a setting with less available light use a higher ISO value.</p>
+
+<p>The photos below were taken in a in a library with little available light. The aperture in all of these photos stays constant. See if you can notice the relationship between the value of the ISO and shutter speed as well as the amount of grain in each photo.</p>
+
+<br>
+
+<img src='images/iso_320.jpg'></img><p style='padding-left: 8.5%;'>ISO 320, 1/200 of a second - This photo should have the least amount of grain since it was shot at the lowest ISO.</p>
+
+<br>
+
+<img src='images/iso_6400.jpg'></img><p style='padding-left: 8.5%;'>ISO 6400, 1/1250 of a second - Can you see the increased grain in the photo with the increase value of the ISO?</p>
+
+<br>
+
+<img src='images/iso_24600.jpg'></img><p style='padding-left: 8.5%;'>ISO 25600, 1/4000 of a second - Can you see the relationship between the value of the ISO and the shutter speed?</p>
+
+<p>Think about the ISO you would use given these situations:</p>
+
+<ol><li>Outside on a sunny day</li><li>In a dark alley way with very little incoming light</li><li>In a football stadium at night</li><li>Your dog is in midair trying to catch a frisbee</li><li>You want to capture the movement of the stars</li></ol>
+<br>
